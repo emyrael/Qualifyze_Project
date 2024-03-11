@@ -26,7 +26,7 @@ The `schema.yml` file under `raw_data` and `transformed_data` defines tests to e
 
 ## Transformations
 
-### Customer Engaegement Evolution
+### Customer Engagement Evolution
 
 The `customer_engagement_evolution.sql` transformation in `transformed_data` addresses the business question related to customer evolution.
 
