@@ -19,4 +19,7 @@ models:
         tests:
           - not_null
 
-
+      - name: credit_utilization_status
+        tests:
+          - accepted_values:
+              values: ['Used', 'Unused', 'Active']
