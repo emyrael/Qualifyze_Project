@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+
 
 # Project Name:Qualifyze Analytics Project with dbt
 
