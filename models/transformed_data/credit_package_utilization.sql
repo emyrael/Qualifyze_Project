@@ -48,7 +48,7 @@ SELECT
     CASE
         WHEN credit_utilization_status = 'Active' THEN 'Partially Used Credits'
         WHEN credit_utilization_status = 'Unused' AND days_until_expiry >= 0 THEN 'Unused Credits (Not Expired Yet)'
-        WHEN credit_utilization_status = 'Used' AND days_until_expiry >= 0 THEN 'Expired Credit'
+        WHEN credit_utilization_status = 'Used' AND days_until_expiry <= 0 THEN 'Expired Credit'
         ELSE 'No Credit'
     END AS insights,
     credits_amount,
